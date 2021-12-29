@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.tryvideocall"
-        minSdk 26
+        minSdk 22
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -43,4 +43,6 @@ dependencies {
 
     implementation 'io.agora.uikit:agorauikit:2.0.1'
     implementation 'io.agora.rtc:full-sdk:x.y.z'
+    implementation 'commons-codec:commons-codec:1.15'
+
 }
